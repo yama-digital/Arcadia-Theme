@@ -49,6 +49,14 @@ function yd_register_required_plugins(){
 			'force_activation'   => false,
 		),
 		array(
+			'name'               => 'Pro Elements',
+			'slug'               => 'pro-elements',
+			'required'           => false,
+			'force_activation'   => false,
+			'source'             => 'https://github.com/proelements/proelements/releases/latest/download/pro-elements.zip',
+			'external_url'       => 'https://proelements.org/' //GPL Elementor Pro
+		),
+		array(
 			'name'               => 'Favicon door RealFaviconGenerator',
 			'slug'               => 'favicon-by-realfavicongenerator',
 			'required'           => false,
@@ -90,6 +98,7 @@ function yd_register_required_plugins(){
 		array(
 			'name'               => 'Essential Addons for Elementor - Pro',
 			'slug'               => 'essential-addons-elementor',
+			'dlid'               => '6c5924ce5edd245cfbb51306e3864d56',
 			'required'           => false,
 			'force_activation'   => false,
 			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/essential-addons-elementor-pro.zip',
@@ -105,7 +114,8 @@ function yd_register_required_plugins(){
 			'slug'               => 'theplus',
 			'required'           => false,
 			'force_activation'   => false,
-			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/theplus_elementor_addon.zip',
+			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/the-plus-addon-for-elementor-page-builder-wordpress-plugin.zip',
+			'external_url'       => 'https://codecanyon.net/item/the-plus-addon-for-elementor-page-builder-wordpress-plugin/22831875',
 		),
 		array(
 			'name'               => 'Dynamic.ooo - Dynamic Content for Elementor',
@@ -113,14 +123,24 @@ function yd_register_required_plugins(){
 			'required'           => false,
 			'force_activation'   => false,
 			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/dynamic-content-for-elementor.zip',
+			'external_url'       => 'https://shop.dynamic.ooo/my-account/'
+		),
+		array(
+			'name'               => 'Element Pack - Addon for Elementor - BDThemes',
+			'slug'               => 'element-pack-addon-for-elementor-page-builder-wordpress-plugin',
+			'required'           => false,
+			'force_activation'   => false,
+			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/bdthemes-element-pack.zip',
+			'external_url'       => 'https://codecanyon.net/item/element-pack-addon-for-elementor-page-builder-wordpress-plugin/21177318'
 		),
 		//CrocoBlocks - Jet Elements
 		array(
 			'name'               => 'CrocoBlocks Jet Elements',
 			'slug'               => 'jet-elements',
+			'dlid'               => 'c2f28bcb4213f5d43a3d2be8448021f3',
 			'required'           => false,
 			'force_activation'   => false,
-			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/crocoblocks/jet-elements.zip',
+			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/crocoblocks/jet-elements.zip'
 		),
 		/*array(
 			'name'               => 'CrocoBlocks Interactive Kit',
@@ -251,9 +271,11 @@ function yd_register_required_plugins(){
 		array(
 			'name'               => 'Swift Performance',
 			'slug'               => 'swift-performance',
+			'dlid'               => 'LT-afd87e-e258e71e-fbcf9527-fb16b364',
 			'required'           => false,
 			'force_activation'   => false,
-			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/swift-performance.zip'
+			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/swift-performance.zip',
+			'external_url'       => 'https://swiftperformance.io/my-account/'
 		),
 		array(
 			'name'               => 'Swift AI',
@@ -268,14 +290,17 @@ function yd_register_required_plugins(){
 			'slug'               => 'real-media-library',
 			'required'           => false,
 			'force_activation'   => false,
-			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/real-media-library.zip'
+			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/real-media-library-media-categories-folders.zip',
+			'external_url'       => 'https://codecanyon.net/item/wordpress-real-media-library-media-categories-folders/13155134'
 		),
 		array(
 			'name'               => 'Happy Files Pro',
 			'slug'               => 'happyfiles',
+			'dlid'               => '49886561-chrea44f5163e1b-b9a108b7c3',
 			'required'           => false,
 			'force_activation'   => false,
-			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/happyfiles-pro.zip'
+			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/happyfiles-pro.zip',
+			'external_url'       => 'https://happyfiles.io/'
 		),
 		//Marketing Mails
 		array(
@@ -289,15 +314,18 @@ function yd_register_required_plugins(){
 			'slug'               => 'mailpoet-premium',
 			'required'           => false,
 			'force_activation'   => false,
-			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/mailpoet-premium.zip'
+			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/mailpoet-premium.zip',
+			'external_url'       => 'https://account.mailpoet.com/account'
 		),
 		/*WooCommerce Plugins*/
 		array(
 			'name'               => 'Woostify Pro',
 			'slug'               => 'woostify-pro',
+			'dlid'               => 'fa06070a6c438bae00ee95de2882bf63',
 			'required'           => false,
 			'force_activation'   => false,
-			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/woostify-pro.zip'
+			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/woostify-pro.zip',
+			'external_url'       => 'https://woostify.com/my-account/'
 		),
 		/*Modern Event Calendar*/
 		array(
@@ -305,7 +333,8 @@ function yd_register_required_plugins(){
 			'slug'               => 'mec',
 			'required'           => false,
 			'force_activation'   => false,
-			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/modern-events-calendar-pro/modern-events-calendar.zip'
+			'source'             => 'https://raw.githubusercontent.com/yama-digital/Arcadia-Theme/master/inc/plugins/modern-events-calendar-pro/modern-events-calendar.zip',
+			'external_url'       => 'https://my.webnus.net/my-account/'
 		),
 		/*array(
 			'name'               => 'MEC Fluent-view Layouts',
